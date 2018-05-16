@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../unit-4-game/assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+ <!--Agregar header para Crystal Collector!, necesita un class para agregar background color en css-->
+    
+
+    <h1 class = "Title" style = "background-color:orange; width:250px; height: 100px; text-align: center">Crystal's Collector</h1>
+
+    
+ <!--Agregar container para instrucciones, ponerle background y font color en css -->
+    <br>       
+    <div class ="container" style= "background-color:coral; width: 400px; height: 400px; float: left; text-align: justify">
+       You will be given a random number at the start of the game.
+       There are four crystals below. By clicking on a crystal you will add a specific amount
+       of points to your total score.
+
+       You win the game by matching your total score to random number, you lose the
+       game if your total score goes above the random number.
+
+       The value of each crystal is hidden from you until you click on it.
+
+       Each time when the game starts, the game will change the value of each crystal.
+    </div>
+    <br>
+    <button class = "random" style = "background-color: cadetblue; width: 300px; height: 220px"></button>
+
+    <div class = "score" style = "background-color:aqua; width:130px; height:220px">
+        <div class = "W">Wins:</div>
+        <div class = "L">Losses:</div>
+    </div> 
+    
+
+      
+            <button id="pink" type="button" class="btn btn-primary">
+                <img src="../unit-4-game/assets/images/pinkgem.jpg" width="80px" height="80px">
+            </button>
+            <button id="diamond" type="button" class="btn btn-secondary">
+                <img src="../unit-4-game/assets/images/diamond.jpg" width="80px" height="80px">
+            </button>
+            <button id="green" type="button" class="btn btn-success">
+                <img src="../unit-4-game/assets/images/greengem.jpg" width="80px" height="80px">
+            </button>
+            <button id="yellow" type="button" class="btn btn-danger">
+                <img src="../unit-4-game/assets/images/yellowgem.jpg" width="80px" height="80px">
+            </button>
+            
+            <div class = "counter" style = "background-color: aquamarine; width: 300px; height: 50px; text-align: left"></div>
+                    
+          
+
+            <div class = "chances" style = "background-color: aquamarine; width: 300px; height: 220px"></div>
+
+    </div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="../unit-4-game/assets/javascript/game.js"></script>
+</body>
+</html>

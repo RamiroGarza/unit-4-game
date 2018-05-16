@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    bottom: 25px;
+}
+
+.random {
+    position: relative;
+    top: 360px;
+    right: 400px;
+}
+.score {
+    position: relative;
+    right: -310px;
+    top:140px;
+}
+.gems {
+    position: relative;
+    top: 300px;
+}
+.counter {
+    position: relative;
+    top: 160px;
+}
+.chances {
+    position: relative;
+    top:170px;
+}
+.btn {
+    position: relative;
+    top: 150px;
+}
